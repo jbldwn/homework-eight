@@ -1,0 +1,18 @@
+#leftHeader {
+  width: $siteWidth;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  margin: -51px auto 0px auto;
+  h1 {
+    font-size: 80px;
+    letter-spacing: 40px;
+    color: $sitePink;
+    // transform: rotate(-90deg);
+    left: 50px;
+    // opacity: 0.8;
+    text-transform: uppercase;
+    filter: drop-shadow(0px 0px 2px $overlay-pink);
+  }
+}

@@ -1,0 +1,23 @@
+@import "variables.scss";
+@import "mixins.scss";
+@import "structure.scss";
+
+//nav
+@import "nav/nav.scss";
+@import "nav/hero.scss";
+@import "nav/leftHeader.scss";
+
+//home
+@import "home/home.scss";
+
+//about
+@import "about/about.scss";
+
+//products
+@import "products/products.scss";
+
+//contact
+@import "contact/contact.scss";
+
+//footer
+@import "footer/footer.scss";

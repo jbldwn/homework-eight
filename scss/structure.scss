@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  //   border: red 2px solid;
+}
+html,
+body {
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+p {
+  font-family: "Lora", serif;
+  font-style: italic;
+  display: flex;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  color: $sitePink;
+  text-transform: capitalize;
+}
+
+#border {
+  margin: auto;
+  max-width: $siteWidth;
+  //   display: flex;
+  //   justify-content: center;
+  //   flex-direction: column;
+  //   min-height: 100%;
+  //   background-color: bisque;
+}

@@ -1,0 +1,25 @@
+.productsContent {
+  margin-bottom: 50px;
+  height: 100%;
+
+  .product {
+    width: 800px;
+    margin: 10px auto 30px auto;
+    display: flex;
+    justify-content: space-between;
+    &-pic {
+      &.product1 {
+        @include headShot("../images/butter-almond-soap.jpg");
+      }
+      &.product2 {
+        @include headShot("../images/rose-gold-soap.jpg");
+      }
+      &.product3 {
+        @include headShot("../images/luxury-soap.jpg");
+      }
+    }
+    &-intro {
+      width: 65%;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.contactContent {
+  margin-bottom: 50px;
+  height: 100%;
+}
+.contactContent form {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}

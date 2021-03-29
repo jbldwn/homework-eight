@@ -1,0 +1,32 @@
+@mixin picImport(
+  $imagepath,
+  $height,
+  $repeat: no-repeat,
+  $position: center,
+  $cover: cover
+) {
+  height: $height;
+  background: {
+    image: linear-gradient(to bottom, $overlay-clear, $overlay-black),
+      url($imagepath);
+    repeat: $repeat;
+    position: $position;
+    size: $cover;
+  }
+}
+@mixin headShot(
+  $imagepath,
+  $repeat: no-repeat,
+  $position: center,
+  $cover: cover
+) {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  background: {
+    image: url($imagepath);
+    repeat: $repeat;
+    position: $position;
+    size: $cover;
+  }
+}

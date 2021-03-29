@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+p {
+  font-family: "Lora", serif;
+  font-style: italic;
+  display: flex;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  color: #ef767a;
+  text-transform: capitalize;
+}
+
+#border {
+  margin: auto;
+  max-width: 1000px;
+}
+
+nav {
+  max-width: 100%;
+  width: 1000px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+}
+nav .links a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  color: #000;
+  margin-right: 15px;
+}
+nav .links .active {
+  font-weight: 700;
+  color: #ef767a;
+  font-style: italic;
+}
+nav .logo {
+  color: #ef767a;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#hero {
+  height: 330px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.45)), url("../images/hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#leftHeader {
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  margin: -51px auto 0px auto;
+}
+#leftHeader h1 {
+  font-size: 80px;
+  letter-spacing: 40px;
+  color: #ef767a;
+  left: 50px;
+  text-transform: uppercase;
+  filter: drop-shadow(0px 0px 2px rgba(78, 56, 42, 0.575));
+}
+
+.homeContent {
+  margin-bottom: 50px;
+  height: 100%;
+  padding: 0px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.homeContent p {
+  width: 400px;
+}
+
+.aboutContent {
+  margin-bottom: 50px;
+  height: 100%;
+}
+.aboutContent .person {
+  width: 800px;
+  margin: 10px auto 30px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.aboutContent .person-pic {
+  height: 200px;
+  width: 200px;
+}
+.aboutContent .person-pic.person1 {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  background-image: url("../images/owner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.aboutContent .person-pic.person2 {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  background-image: url("../images/co-owner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.aboutContent .person-intro {
+  width: 65%;
+}
+
+.productsContent {
+  margin-bottom: 50px;
+  height: 100%;
+}
+.productsContent .product {
+  width: 800px;
+  margin: 10px auto 30px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.productsContent .product-pic.product1 {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  background-image: url("../images/butter-almond-soap.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.productsContent .product-pic.product2 {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  background-image: url("../images/rose-gold-soap.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.productsContent .product-pic.product3 {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  background-image: url("../images/luxury-soap.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.productsContent .product-intro {
+  width: 65%;
+}
+
+.contactContent {
+  margin-bottom: 50px;
+  height: 100%;
+}
+.contactContent form {
+  height: 400px;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+.contactContent form .reqiredNote {
+  font-style: italic;
+  margin: 0 auto;
+}
+.contactContent form .required {
+  color: #ef767a;
+  font-style: normal;
+  font-weight: 700;
+}
+.contactContent form input {
+  height: 40px;
+  border: 1px solid #ef767a;
+  border-radius: 2px;
+}
+.contactContent form button {
+  margin: 0 auto;
+  height: 40px;
+  background-color: #ef767a;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  width: 33%;
+}
+
+footer {
+  width: 100%;
+  height: 165px;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+  background-color: #f8f8f8;
+}
+footer .ftBorder {
+  margin: auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  padding: 0px 50px;
+}
