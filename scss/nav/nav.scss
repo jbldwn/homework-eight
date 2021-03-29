@@ -1,31 +1,37 @@
 nav {
   max-width: 100%;
-  width: $siteWidth;
+  background-color: #fff;
   height: 100px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0px 50px;
-  .links {
-    a {
-      text-decoration: none;
-      font-family: "Roboto", sans-serif;
-      font-size: 25px;
-      font-weight: 300;
-      color: #000;
-      margin-right: 15px;
+
+  .navBorder {
+    width: $siteWidth;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    // padding: 0px 50px;
+    .links {
+      a {
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+        font-size: 25px;
+        font-weight: 300;
+        color: #000;
+        margin: 0px 5px;
+      }
+      .active {
+        font-weight: 700;
+        color: $sitePink;
+        font-style: italic;
+      }
     }
-    .active {
-      font-weight: 700;
+    .logo {
       color: $sitePink;
-      font-style: italic;
+      font-family: "Roboto", sans-serif;
+      font-size: 40px;
+      font-weight: 700;
+      // filter: drop-shadow(0px 0px px $overlay-pink);
     }
-  }
-  .logo {
-    color: $sitePink;
-    font-family: "Roboto", sans-serif;
-    font-size: 40px;
-    font-weight: 700;
-    // filter: drop-shadow(0px 0px px $overlay-pink);
   }
 }

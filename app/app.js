@@ -43,6 +43,16 @@ function init(){
     });
 }
 
+// //sticky heading for hero image
+var stickyOffset = $('.sticky').offset().top;
+
+$(window).scroll(function(){
+  var sticky = $('.sticky'),
+      scroll = $(window).scrollTop();
+
+  if (scroll >= stickyOffset) sticky.addClass('fixed');
+  else sticky.removeClass('fixed');
+});
 
 //this checks for all the elemeents to be ready by the browser
 $(document).ready(function(){

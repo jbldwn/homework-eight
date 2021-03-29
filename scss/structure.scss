@@ -18,6 +18,11 @@ h6,
 p {
   margin-bottom: 16px;
 }
+
+html {
+  overflow: -moz-scrollbars-vertical;
+  overflow-y: scroll;
+}
 p {
   font-family: "Lora", serif;
   font-style: italic;
@@ -29,13 +34,33 @@ h2 {
   color: $sitePink;
   text-transform: capitalize;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+.sticky:last-of-type {
+  position: sticky;
+  margin-top: 100px;
+}
+#content-wrap {
+  min-height: 60%;
+}
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
 
 #border {
   margin: auto;
   max-width: $siteWidth;
-  //   display: flex;
-  //   justify-content: center;
-  //   flex-direction: column;
-  //   min-height: 100%;
-  //   background-color: bisque;
+}
+#content-wrap {
+  min-height: 100vh; /* will cover the 100% of viewport */
+
+  position: relative;
+  padding-bottom: 65px; /* height of your footer */
 }

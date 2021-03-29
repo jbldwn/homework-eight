@@ -1,12 +1,12 @@
 .homeContent {
   margin-bottom: 50px;
-  height: 100%;
-  //   margin: 100 auto;
-  padding: 0px 50px;
+  padding: 450px 50px 65px 0px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   p {
     width: 400px;
+  }
+  p:first-of-type {
+    margin-left: 50px;
   }
 }

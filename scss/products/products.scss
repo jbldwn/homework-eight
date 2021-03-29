@@ -1,13 +1,22 @@
+.product:last-of-type {
+  margin-bottom: 65px;
+}
+// }
 .productsContent {
+  //   padding-top: 500px;
+  padding-top: 450px;
   margin-bottom: 50px;
-  height: 100%;
+  min-height: 100%;
 
   .product {
-    width: 800px;
-    margin: 10px auto 30px auto;
+    width: 70%;
+    margin-top: 25px;
+    margin: 25px auto;
     display: flex;
     justify-content: space-between;
     &-pic {
+      height: 200px;
+      width: 200px;
       &.product1 {
         @include headShot("../images/butter-almond-soap.jpg");
       }
@@ -21,5 +30,8 @@
     &-intro {
       width: 65%;
     }
+  }
+  .product:last-of-type {
+    margin-bottom: 165px;
   }
 }

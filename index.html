@@ -8,8 +8,15 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div id="border">
-            <nav>
+    <div class="sticky">
+        <div id="hero"></div>
+        <div id="leftHeader">
+            <h1>home</h1>
+        </div>
+    </div>
+    <div class="sticky">
+        <nav>
+            <div class="navBorder">
                 <div class="links">
                     <a class="active" id="home" href="#">HOME</a>
                     <a id="about" href="#">ABOUT</a>
@@ -19,24 +26,29 @@
                 <h1 class="logo">
                     The Soap Factory
                 </h1>
-            </nav>
-    </div>
-            <div id="hero"></div>
-            <div id="leftHeader">
-                <h1>home</h1>
             </div>
-    <div id="border">            
-        <div id="app">
-            <div class='homeContent'><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At tempore exercitationem, recusandae omnis autem quis nihil. Dicta laborum earum non numquam modi eum voluptas architecto fugit aspernatur dolorem harum sint cupiditate, totam incidunt vel nihil. Nam iste earum, reiciendis cupiditate vero laudantium quis dolore eveniet pariatur quo sit similique velit aliquam, aliquid a repudiandae voluptas, officia minima. Natus, alias corporis.</p><p>Dolor sit amet consectetur adipisicing elit. Quasi nostrum, quae voluptates aliquid esse quos obcaecati ad maiores nemo dicta iure adipisci consequatur, aliquam quis et expedita praesentium? Modi sed nam placeat natus rem, voluptatum esse culpa quis debitis odit. Officiis, tenetur?</p></div>
-        </div>
-       
+        </nav>
     </div>
-    <footer>
-        <div class="ftBorder">
-            <div>©The Soap Factory</div>
-            <div>Terms and Conditions</div>
+    
+    <div id="content-wrap">   
+        <div id="border">            
+            <div id="app">
+                <div class='homeContent'>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At tempore exercitationem, recusandae omnis autem quis nihil. Dicta laborum earum non numquam modi eum voluptas architecto fugit aspernatur dolorem harum sint cupiditate, totam incidunt vel nihil. Nam iste earum, reiciendis cupiditate vero laudantium quis dolore eveniet pariatur quo sit similique velit aliquam, aliquid a repudiandae voluptas, officia minima. Natus, alias corporis.</p>
+                    <p>Dolor sit amet consectetur adipisicing elit. Quasi nostrum, quae voluptates aliquid esse quos obcaecati ad maiores nemo dicta iure adipisci consequatur, aliquam quis et expedita praesentium? Modi sed nam placeat natus rem, voluptatum esse culpa quis debitis odit. Officiis, tenetur?</p>
+                </div>
+            </div>
+        
         </div>
-    </footer>
+        <footer>
+            <div class="ftBorder">
+                <div>©The Soap Factory</div>
+                <div>Terms and Conditions</div>
+            </div>
+        </footer>
+    </div> 
+        
+    
     <!-- //locallly sourced -->
     <script src="lib/jquery-3.6.0.min.js"></script>
     <script src="app/app.js"></script>
